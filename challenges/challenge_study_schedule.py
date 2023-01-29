@@ -1,5 +1,5 @@
 def study_schedule(permanence_period, target_time):
-    if target_time != 0 or target_time == None:
+    if target_time != 0 or target_time is None:
         return None
 
     users_online = 0
